@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Oswald:wght@700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,32 +8,42 @@
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
+    color: #918ca4;
 }
 
 /* headings and logo */
 
+.wrap {
+    height: 75px;
+    width: 100%;
+    padding: 0;
+    display: block;
+}
 
 h1, h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525
+    letter-spacing: 3px;
+    color: #160760;
 }
 
 #logo {
     text-transform: none;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     float: left;
-    font-size: 280%;
+    font-size: 230%;
+    margin-left: 25px;
 }
+
+
 
 /* site navigation */
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    font-weight: 900;
+    font-size: 100%;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
 }
 
 #menu, #logo {
@@ -51,7 +61,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    color: red;
+    color: #0050ff;
 }
 
 .active {
@@ -63,5 +73,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(..);
+    background: url('../images/Nurse\ on\ uniform\ walking.jpg') no-repeat;
+    background-size: cover;
 }
+
