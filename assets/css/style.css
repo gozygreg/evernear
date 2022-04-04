@@ -88,7 +88,15 @@ h1, h2 {
     background-color: rgba(17, 17, 17, 0.5);
 
     bottom: 30px;
-    right: 150px;
+    right: 80px;
     
     position: absolute;
+
+    transition: transform 0.5s ease-in;
+}
+
+/* hero text animation */
+
+#hero-text:hover {
+    transform: perspective(200px) translateZ(30px);
 }
