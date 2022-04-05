@@ -130,6 +130,7 @@ h1, h2 {
     width: 33%;
     margin: 0 auto;
     background-color: silver;
+    border-top-right-radius: 25px;
 }
 
 hr {
@@ -167,6 +168,7 @@ hr {
     float: none;
     line-height: 20px;
     margin-bottom: 25px;
+    padding: 0 0 10px 20px;
 }
 
 .center-treatment-content h2 {
@@ -175,6 +177,12 @@ hr {
 
 .center-treatment-content p {
     text-align: center;
+}
+
+#treatment-title {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 200%;
 }
 
 
