@@ -117,19 +117,65 @@ h1, h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #right-treatment {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
 
 #center-treatment {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+    background-color: silver;
 }
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-treatment-content {
+    width: 90%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 25px;
+}
+
+.right-treatment-content {
+    width: 90%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 25px;
+}
+
+.right-treatment-content h2 {
+    text-align: right;
+}
+
+.right-treatment-content p {
+    text-align: right;
+}
+
+.center-treatment-content {
+    width: 90%;
+    float: none;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.center-treatment-content h2 {
+    text-align: center;
+}
+
+.center-treatment-content p {
+    text-align: center;
+}
+
+
+
