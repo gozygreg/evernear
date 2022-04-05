@@ -78,7 +78,7 @@ h1, h2 {
 }
 
 #hero-text {
-    height: 200px;
+    height: 150px;
     width: 300px;
 
     font-size: 100%;
@@ -89,10 +89,16 @@ h1, h2 {
 
     bottom: 30px;
     right: 80px;
+
     
     position: absolute;
 
     transition: transform 0.5s ease-in;
+}
+
+.hero-text {
+    padding-left: 1rem;
+    color: aliceblue;
 }
 
 /* hero text animation */
