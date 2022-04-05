@@ -71,7 +71,7 @@ h1, h2 {
 /* hero image and hero text */
 
 #hero-image {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url('../images/Nurse\ on\ uniform\ walking.jpg') no-repeat;
     background-size: cover;
@@ -105,4 +105,31 @@ h1, h2 {
 
 #hero-text:hover {
     transform: perspective(200px) translateZ(30px);
+}
+
+/* treatment offered */
+
+#treatment {
+    height: 500px
+}
+
+#left-treatment {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-treatment {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-treatment {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
