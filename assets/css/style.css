@@ -110,7 +110,7 @@ h1, h2 {
 /* treatment offered */
 
 #treatment {
-    height: 500px
+    height:fit-content
 }
 
 #left-treatment {
@@ -185,5 +185,25 @@ hr {
     font-size: 200%;
 }
 
+/* Appointment booking */
 
+#appointment-booking-outer {
+    height: 500px;
+    width: 100%;
+    background-color: blue;
 
+}
+
+.appointment-booking-inner {
+    width: 25%;
+    float: none;
+    line-height: 20px;
+    padding: 0 0 10px 20px;
+    margin-bottom: 25px;
+    background-color: orange;
+}
+
+.legend {
+    text-transform: capitalize;
+    font-weight: 600;
+}
