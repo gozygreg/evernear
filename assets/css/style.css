@@ -195,6 +195,14 @@ form {
     border-radius: 8px;
   }
 
+  .appointment-booking-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+    }
+
 .legend {
     text-transform: capitalize;
     font-weight: 600;
