@@ -71,9 +71,9 @@ h1, h2 {
 /* hero image and hero text */
 
 #hero-image {
-    height: 700px;
+    height: 600px;
     width: 100%;
-    background: url('../images/Nurse\ on\ uniform\ walking.jpg') no-repeat;
+    background: url('../images/black\ nurse\ on\ the\ move.jpeg') no-repeat;
     background-size: cover;
 }
 
@@ -86,9 +86,10 @@ h1, h2 {
     letter-spacing: 2px;
 
     background-color: rgba(17, 17, 17, 0.5);
+    color: #fafafa;
 
-    bottom: 200px;
-    right: 80px;
+    bottom: 0px;
+    right: 900px;
 
     
     position: absolute;
@@ -96,10 +97,7 @@ h1, h2 {
     transition: transform 0.5s ease-in;
 }
 
-.hero-text {
-    padding-left: 1rem;
-    color: aliceblue;
-}
+
 
 /* hero text animation */
 
@@ -320,3 +318,15 @@ button {
       letter-spacing: 2px;
       line-height: normal;
   }
+
+  /* styling the location.html page */
+
+  /* location hero section */
+
+  #location-hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/medical\ van.jpeg') no-repeat;
+    background-size: cover;
+}
+
