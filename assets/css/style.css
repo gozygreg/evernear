@@ -8,7 +8,7 @@
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
-    color: #918ca4;
+    color: black;
 }
 
 /* headings and logo */
@@ -24,7 +24,7 @@ h1, h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #160760;
+    color: #019cde;
 }
 
 #logo {
@@ -84,6 +84,8 @@ h1, h2 {
     font-size: 100%;
     font-family: oswald, sans-serif;
     letter-spacing: 2px;
+
+    padding: 3px 10px;
 
     background-color: rgba(17, 17, 17, 0.5);
     color: #fafafa;
@@ -187,8 +189,7 @@ hr {
 
 #appointment-booking-outer {
     background-color: #fafafa;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    
 }
 
 form {
@@ -233,7 +234,7 @@ textarea {
 button {
     padding: 10px;
     color: #FFF;
-    background-color: #4bc970;
+    background-color: #54a864;
     font-size: 18px;
     text-align: center;
     font-style: normal;
@@ -253,6 +254,7 @@ button {
       flex-direction: row;
       justify-content: center;
       background-color: black;
+      color: #FFF;
   }
 
   .container {
@@ -306,7 +308,7 @@ button {
       color: #3a3a3a;
   }
 
-  .social-media i:hover {
+  .container-hover i:hover {
     color: #e8eeef;
 }
 
