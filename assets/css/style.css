@@ -36,7 +36,6 @@ h1, h2 {
 }
 
 
-
 /* site navigation */
 
 #menu {
@@ -49,6 +48,7 @@ h1, h2 {
 #menu, #logo {
     line-height: 75px;
 }
+
 #menu li {
     list-style-type: none;
     float: right;
@@ -250,31 +250,46 @@ button {
   /* footer */
 
   .footer-container{
-      border: 3px solid lightgray;
+      border-top: 1px solid #e8eeef;
       display: flex;
       flex-direction: row;
       justify-content: center;
-      
+      background-color: black;
   }
 
   .container {
-      flex: 1 1 15rem;
+      flex: 1 1 12.5rem;
       height: 10rem;
       width: 10rem;
-      background-color: gold;
-      margin: 1rem;   
+      margin: 1rem; 
+      text-align: center;
   }
 
   .container-left {
-      flex-grow: 0;
-      
+      flex-grow: 0;  
   }
 
-  .container-right{
+  .footer-logo {
+    color: #3a3a3a;
+    text-transform: none;
+    letter-spacing: 3px;
+    float: left;
+    font-size: 200%;
+    margin: 25px;
+  }
+
+  .footer-logo:hover {
+      color: #e8eeef;
+  }
+
+  .container-right > h3{
+      padding-bottom: 0.5rem;
       
   }
 
   .container-center{
+      border-left: 1px solid #e8eeef;
+      border-right: 1px solid #e8eeef;
      
   }
 
@@ -291,4 +306,17 @@ button {
       margin: 1%;
       padding: 0;
       color: #3a3a3a;
+  }
+
+  .social-media i:hover {
+    color: #e8eeef;
+}
+
+  .container i {
+      font-size: 200%;
+      margin: 1%;
+      padding: 0;
+      color: #3a3a3a;
+      letter-spacing: 2px;
+      line-height: normal;
   }
