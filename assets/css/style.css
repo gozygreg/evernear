@@ -332,3 +332,70 @@ button {
     background-size: cover;
 }
 
+/* location content */
+
+#location {
+    height: fit-content;
+}
+
+#left-location {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
+
+#right-location {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+.left-location-content {
+    width: 90%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 25px;
+}
+
+.right-location-content {
+    width: 90%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 25px;
+}
+
+.left-location-content h4 {
+    text-align: right;
+}
+
+.left-location-content p {
+    text-align: right;
+}
+
+#location-area {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 150%;
+}
+
+
+/* location content picture */
+
+#center-content {
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    border-top-right-radius: 25px;
+    margin: 0 auto;
+    
+}
+
+#center-image {
+    
+}
