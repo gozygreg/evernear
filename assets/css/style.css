@@ -404,3 +404,14 @@ button {
     border-radius: 50%;
     border-top-right-radius: 25px;
 }
+
+/* styling the identity.html page */
+
+  /* identity hero section */
+
+  #identity-hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/Stethoscope.jpg') no-repeat;
+    background-size: cover;
+}
