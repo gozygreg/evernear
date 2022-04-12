@@ -110,7 +110,7 @@ h1, h2 {
 /* treatment offered */
 
 #treatment {
-    height:fit-content
+    height: 400px
 }
 
 #left-treatment {
@@ -335,7 +335,7 @@ button {
 /* location content */
 
 #location {
-    height: fit-content;
+    height: 400px;
 }
 
 #left-location {
@@ -420,7 +420,7 @@ button {
 /* styling about us section of the identity.html page */
 
 .about-us {
-    height: 600px;
+    height: 400px;
     width: 100%;
     display: flex;
     
@@ -430,6 +430,21 @@ button {
 .know-us {
     height: auto;
     width: 33.33%;
-    background-color: gray;
+    background-color: #fafafa;
     border: 1px solid white;  
+}
+
+.icon {
+    font-size: 700%;
+    text-align: center;
+    color: #3a3a3a;
+}
+
+.know-us h2 {
+    text-align: center;
+}
+
+.know-us p {
+    text-align: justify;
+    padding: 10px;
 }
