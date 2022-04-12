@@ -415,3 +415,21 @@ button {
     background: url('../images/Stethoscope.jpg') no-repeat;
     background-size: cover;
 }
+
+
+/* styling about us section of the identity.html page */
+
+.about-us {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    
+    
+}
+
+.know-us {
+    height: auto;
+    width: 33.33%;
+    background-color: gray;
+    border: 1px solid white;  
+}
