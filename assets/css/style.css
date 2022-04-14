@@ -24,7 +24,7 @@ h1, h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #019cde;
+    color: #33b5e5;
 }
 
 #logo {
@@ -61,7 +61,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    color: #0050ff;
+    color: #0099cc;
 }
 
 .active {
@@ -447,4 +447,20 @@ button {
 .know-us p {
     text-align: justify;
     padding: 10px;
+}
+
+ /* footer */
+
+ 
+
+.footer-logo:hover {
+    color: #e8eeef;
+}
+
+
+
+
+
+.container-hover i:hover {
+  color: #e8eeef;
 }
