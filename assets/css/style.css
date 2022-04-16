@@ -455,7 +455,7 @@ button {
  @media screen and (max-width: 1200px) {
 #treatment {
     width: 65%;
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
 }
 
@@ -490,6 +490,30 @@ hr {
          margin-left: 30px;
          margin-bottom: 20px;
          line-height: 25px;
+     }
+
+     #hero-text {
+         left: 25px;
+     }
+
+     #treatment {
+         width: 90%;
+         height: 600px;
+         margin: 0 auto;
+     }
+
+     .left-treatment-content, .right-treatment-content {
+         width: inherit;
+     }
+
+     .left-treatment-content h2, .right-treatment-content h2 {
+         width: 100%;
+         text-align: center;
+     }
+
+     .left-treatment-content p, .right-treatment-content p {
+         text-align: center;
+         padding: 0, 20px;
      }
 
  }
