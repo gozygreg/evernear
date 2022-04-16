@@ -453,24 +453,37 @@ button {
 
 /* for larger to medium screen size from 1200px wide and down */
  @media screen and (max-width: 1200px) {
-#treatment {
+#treatment,
+#location, 
+.about-us {
     width: 65%;
     height: 600px;
     margin: 0 auto;
 }
 
-#treatment-title {
+.about-us {
+    display: block;
+}
+
+.icon {
+    font-size: 300%;
+}
+
+#treatment-title, 
+#location-area {
     padding: 30px;
     margin: 0;
 }
 
-#left-treatment, #right-treatment {
+#left-treatment, #right-treatment, 
+#left-location, #right-location,
+#left-know-us, #right-know-us, #center-know-us {
     width: 100%;
     float: left;
     padding: 0;
 }
 
-#center-treatment {
+#center-treatment, #center-content {
     clear: both;
     width: 100%;
     float: left;
@@ -500,22 +513,25 @@ hr {
          left: 25px;
      }
 
-     #treatment {
+     #treatment, #location {
          width: 90%;
          height: 600px;
          margin: 0 auto;
      }
 
-     .left-treatment-content, .right-treatment-content {
+     .left-treatment-content, .right-treatment-content, 
+     .left-location-content, .right-location-content {
          width: inherit;
      }
 
-     .left-treatment-content h2, .right-treatment-content h2 {
+     .left-treatment-content h2, .right-treatment-content h2
+     .left-location-content h2, .right-location-content h2 {
          width: 100%;
          text-align: center;
      }
 
-     .left-treatment-content p, .right-treatment-content p {
+     .left-treatment-content p, .right-treatment-content p 
+     .left-location-content p, .right-location-content p {
          text-align: center;
          padding: 0, 20px;
      }
