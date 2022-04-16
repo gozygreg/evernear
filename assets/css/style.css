@@ -248,7 +248,7 @@ button {
 
   /* footer */
 
-  .footer-container{
+  .footer-container {
       border-top: 1px solid #e8eeef;
       display: flex;
       flex-direction: row;
@@ -266,8 +266,8 @@ button {
   }
 
   .container-left {
-      flex-grow: 0;  
-  }
+    flex-grow: 0;  
+}
 
   .footer-logo {
     color: #3a3a3a;
@@ -476,6 +476,10 @@ button {
     float: left;
 }
 
+#hero-text {
+    left: 25px;
+}
+
 hr {
     display: none;
 }
@@ -516,4 +520,22 @@ hr {
          padding: 0, 20px;
      }
 
+ }
+
+ /* For small screen sizes 800px and down */
+ @media screen and (max-width: 800px) {
+    .container {
+        flex: 1 1 12.5rem;
+        height: 30vh;
+        width: 33.3%;
+        margin: 1rem; 
+        text-align: center;
+        background-color: #0099cc;
+        padding-top: 1rem;
+        margin: 0 auto;
+    }
+  
+    .container-right {
+      flex-grow: 0;  
+  }
  }
