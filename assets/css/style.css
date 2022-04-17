@@ -409,8 +409,7 @@ button {
     height: 400px;
     width: 100%;
     display: flex;
-    
-    
+    padding-top: 25px;   
 }
 
 .know-us {
