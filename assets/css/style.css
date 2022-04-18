@@ -118,7 +118,6 @@ h1, #hero-text h2 {
 
 .treat-us {
     height: auto;
-    width: 33.33%;
     background-color: #fafafa;
     border: 1px solid white;  
 }
@@ -278,6 +277,33 @@ button {
 
   /* styling the location.html page */
 
+  .locate {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    padding-top: 25px;   
+}
+
+.locate-us {
+    height: auto;
+    background-color: #fafafa;
+    border: 1px solid white;  
+}
+
+
+
+.locate-us h2 {
+    text-align: center;
+}
+
+.locate-us p{
+    text-align: justify;
+    padding: 10px;
+}
+
+
+
+
   /* location hero section */
 
   #location-hero-image {
@@ -289,51 +315,6 @@ button {
 
 /* location content */
 
-#location {
-    height: 400px;
-}
-
-#left-location {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#right-location {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-}
-
-.left-location-content {
-    width: 90%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 25px;
-}
-
-.right-location-content {
-    width: 90%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 25px;
-}
-
-.left-location-content h4 {
-    text-align: right;
-}
-
-.left-location-content p {
-    text-align: right;
-}
-
-#location-area {
-    text-align: center;
-    margin: 10px 0;
-    font-size: 150%;
-}
 
 
 /* location content picture */
@@ -374,14 +355,14 @@ button {
 
 /* styling about us section of the identity.html page */
 
-.about-us, .treat{
+.about-us {
     height: 400px;
     width: 100%;
     display: flex;
     padding-top: 25px;   
 }
 
-.know-us, .treat-us {
+.know-us {
     height: auto;
     width: 33.33%;
     background-color: #fafafa;
@@ -408,7 +389,7 @@ button {
 /* for larger to medium screen size from 1200px wide and down */
  @media screen and (max-width: 1200px) {
 
-#treatment, #location, .about-us, .treat{
+#treatment, #location, .about-us, .treat, .locate {
     width: 65%;
     height: 800px;
     margin: 0 auto;
@@ -418,7 +399,7 @@ button {
 
 
 
-.about-us, .treat {
+.about-us, .treat, .locate {
     display: block;
 }
 
