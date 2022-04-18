@@ -219,6 +219,8 @@ button {
       text-align: center;
   }
 
+  
+
   .container-left {
     flex-grow: 0;  
 }
@@ -295,6 +297,10 @@ button {
 
 .locate-us h2 {
     text-align: center;
+}
+
+#right-locate h2, #left-locate h2 {
+    padding-top: 10px;
 }
 
 .locate-us p{
@@ -388,6 +394,7 @@ button {
     width: 100%;
     height: auto;
 }
+
 
 #center-image {
     width: 100%;
