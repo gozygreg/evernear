@@ -109,67 +109,36 @@ h1, #hero-text h2 {
 
 /* treatment offered */
 
-#treatment {
-    height: 400px
-}
-
-#left-treatment {
-    padding-top: 30px;
-    width: 33.3%;
-    float: left;
-}
-
-#right-treatment {
-    padding-top: 30px;
-    width: 33.3%;
-    float: right;
-}
-
-#center-treatment {
-    padding-top: 30px;
-    width: 33.3%;
-    margin: 0 auto;
-    border-top-right-radius: 25px;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
+.treat{
+    height: 400px;
     width: 100%;
-    margin: 5px 0;
+    display: flex;
+    padding-top: 25px;   
 }
 
-.left-treatment-content {
-    width: 90%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 25px;
-    text-align: justify;
+.treat-us {
+    height: auto;
+    width: 33.33%;
+    background-color: #fafafa;
+    border: 1px solid white;  
 }
 
-.right-treatment-content {
-    width: 90%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 25px;
-    text-align: justify;
-}
-
-.center-treatment-content {
-    width: 90%;
-    float: none;
-    line-height: 20px;
-    padding: 0 0 10px 20px;
-    margin-bottom: 25px;
-    text-align: justify;
-}
-
-#treatment-title {
+.icon {
+    font-size: 700%;
     text-align: center;
-    margin: 10px 0;
-    font-size: 200%;
+    color: #33b5e5;
 }
+
+.treat-us h2 {
+    text-align: center;
+}
+
+.treat-us p{
+    text-align: justify;
+    padding: 10px;
+}
+
+
 
 /* Appointment booking */
 
@@ -405,14 +374,14 @@ button {
 
 /* styling about us section of the identity.html page */
 
-.about-us {
+.about-us, .treat{
     height: 400px;
     width: 100%;
     display: flex;
     padding-top: 25px;   
 }
 
-.know-us {
+.know-us, .treat-us {
     height: auto;
     width: 33.33%;
     background-color: #fafafa;
@@ -425,11 +394,11 @@ button {
     color: #33b5e5;
 }
 
-.know-us h2 {
+.know-us h2, .treat-us h2 {
     text-align: center;
 }
 
-.know-us p {
+.know-us p, .treat-us p{
     text-align: justify;
     padding: 10px;
 }
@@ -439,13 +408,17 @@ button {
 /* for larger to medium screen size from 1200px wide and down */
  @media screen and (max-width: 1200px) {
 
-#treatment, #location, .about-us {
+#treatment, #location, .about-us, .treat{
     width: 65%;
     height: 800px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
-.about-us {
+
+
+
+.about-us, .treat {
     display: block;
 }
 
@@ -468,7 +441,13 @@ button {
     padding: 0;
 }
 
-.center-treatment-content h2, .right-treatment-content h2,
+.left-treatment-content {
+    float: left;
+    padding-left: 20px;
+}
+
+
+.center-treatment-content h2, .right-treatment-content h2, .left-treatment-content h2,
 .right-location-content h4, .left-location-content h4 {
     text-align: center;
 }
@@ -528,18 +507,30 @@ hr {
          width: inherit;
      }
 
+     .center-treatment-content {
+        width: 97%;
+    }
+
      .left-treatment-content h2, .right-treatment-content h2
      .left-location-content h2, .right-location-content h2 {
          width: 100%;
          text-align: center;
      }
 
-     .left-treatment-content p, .right-treatment-content p 
-     .left-location-content p, .right-location-content p {
-         text-align: center;
+    .right-treatment-content p, .left-location-content p, .right-location-content p {
+         text-align: justify;
          padding: 0, 20px;
      }
 
+     .left-treatment-content p {
+         padding: 0, 20px
+     }
+
+     .center-treatment-content p {
+         padding-right: 0;
+     }
+
+    
  }
 
  /* For small screen sizes 800px and down */
