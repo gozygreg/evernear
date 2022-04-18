@@ -286,6 +286,7 @@ button {
 
 .locate-us {
     height: auto;
+    width: 33.3%;
     background-color: #fafafa;
     border: 1px solid white;  
 }
@@ -319,26 +320,12 @@ button {
 
 /* location content picture */
 
-#center-content {
-    height: 300px;
-    width: 300px;
-    padding: 15px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 0.25px;
-    border-radius: 50%;
-    border-top-right-radius: 25px;
-    margin: 0 auto;
-    
-}
-
 #center-image {
-    width: 100%;
-    height: 100%;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     overflow: hidden;
     border-radius: 50%;
-    border-top-right-radius: 25px;
 }
 
 /* styling the identity.html page */
@@ -389,18 +376,24 @@ button {
 /* for larger to medium screen size from 1200px wide and down */
  @media screen and (max-width: 1200px) {
 
-#treatment, #location, .about-us, .treat, .locate {
+.about-us, .treat, .locate {
     width: 65%;
     height: 800px;
     margin: 0 auto;
     box-sizing: border-box;
+    display: block;
 }
 
+.locate-us {
+    width: 100%;
+    height: auto;
+}
 
-
-
-.about-us, .treat, .locate {
-    display: block;
+#center-image {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%; 
 }
 
 .icon {
@@ -408,14 +401,6 @@ button {
 }
 
 
-#location-area {
-    padding: 30px 0;
-    margin: 0;
-    color: #33b5e5;
-}
-
-#left-treatment, #right-treatment, #center-treatment,
-#left-location, #right-location,
 #left-know-us, #right-know-us, #center-know-us {
     width: 100%;
     float: left;
@@ -428,15 +413,6 @@ button {
 }
 
 
-.center-treatment-content h2, .right-treatment-content h2, .left-treatment-content h2,
-.right-location-content h4, .left-location-content h4 {
-    text-align: center;
-}
-
-.left-treatment-content p, .right-location-content p, .left-location-content p {
-   text-align: justify;
-}
-
 .right-treatment-content p {
     padding-left: 20px;
 }
@@ -444,14 +420,7 @@ button {
 #center-image {
     object-fit: contain;
 }
-
-
-#center-content {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-}
+ 
 
 #hero-text {
     left: 25px;
@@ -482,35 +451,6 @@ hr {
          height: 600px;
          margin: 0 auto;
      }
-
-     .left-treatment-content, .right-treatment-content, 
-     .left-location-content, .right-location-content {
-         width: inherit;
-     }
-
-     .center-treatment-content {
-        width: 97%;
-    }
-
-     .left-treatment-content h2, .right-treatment-content h2
-     .left-location-content h2, .right-location-content h2 {
-         width: 100%;
-         text-align: center;
-     }
-
-    .right-treatment-content p, .left-location-content p, .right-location-content p {
-         text-align: justify;
-         padding: 0, 20px;
-     }
-
-     .left-treatment-content p {
-         padding: 0, 20px
-     }
-
-     .center-treatment-content p {
-         padding-right: 0;
-     }
-
     
  }
 
