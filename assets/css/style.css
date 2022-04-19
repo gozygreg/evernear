@@ -437,6 +437,9 @@ hr {
     display: none;
 }
 
+
+
+
 }
      
  /* for medium screen sizes from 950px wide and down */
@@ -459,21 +462,34 @@ hr {
          margin: 0 auto;
      }
     
+
  }
 
  /* For small screen sizes 800px and down */
  @media screen and (max-width: 800px) {
-    .container {
-        flex: 1 1 12.5rem;
-        height: 30vh;
-        width: 33.3%;
-        margin: 1rem; 
-        text-align: center;
-        padding-top: 1rem;
-        margin: 0 auto;
-    }
+
+  .footer-container {
+    border-top: 1px solid #e8eeef;
+    display: block;
+    background-color: black;
+    color: #FFF;
+}
   
-    .container-right {
-      flex-grow: 0;  
-  }
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.container-center {
+    border: none;
+    text-align: justify;
+    padding-left: 60px;
+
+}
+
+.container-right {
+    background-color: #0099cc;
+    padding-top: 10px;
+}
+
  }
