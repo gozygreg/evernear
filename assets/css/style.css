@@ -368,6 +368,7 @@ button {
     color: #33b5e5;
 }
 
+
 .know-us h2, .treat-us h2 {
     text-align: center;
 }
@@ -478,6 +479,7 @@ hr {
 .container {
     width: 100%;
     text-align: center;
+    margin: 0;
 }
 
 .container-center {
