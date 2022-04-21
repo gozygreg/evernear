@@ -488,4 +488,13 @@ hr {
     button {
         width: 30%;
     }
+
+    #logo, .footer-logo {
+        font-size: 150%;
+        letter-spacing: 1px;
+    }
+
+    .footer-logo {
+        margin-bottom: 0;
+    }
 }
