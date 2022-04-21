@@ -492,7 +492,7 @@ hr {
     }
 }
 
-/* for smaller screen size from 480px wide and down */
+/* for smaller screen size from 380px wide and down */
 @media screen and (max-width: 380px) {
 
     .about-us, .treat, .locate {
@@ -521,7 +521,7 @@ hr {
     }
 
     #menu li, footer {
-        font-size: 77%;
+        font-size: 75%;
     }
 
     #hero-text {
