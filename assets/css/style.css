@@ -147,7 +147,7 @@ h1, #hero-text h2 {
 }
 
 form {
-    max-width: 400px;
+    max-width: 500px;
     margin: 10px auto;
     padding: 10px 20px;
     background: #f4f7f8;
@@ -374,7 +374,7 @@ button {
  @media screen and (max-width: 1200px) {
 
 .about-us, .treat, .locate {
-    width: 65%;
+    width: 75%;
     height: 800px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -521,7 +521,7 @@ hr {
     }
 
     #menu li, footer {
-        font-size: 75%;
+        font-size: 70%;
     }
 
     #hero-text {
