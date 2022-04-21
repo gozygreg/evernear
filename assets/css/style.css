@@ -485,7 +485,11 @@ hr {
         display: block;
     }
 
- }
+    form {
+        width: 75%;
+      }
 
-
- 
+    button {
+        width: 30%;
+    }
+}
