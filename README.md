@@ -1,6 +1,8 @@
 
 eveRNear Mobile Clinic
 
+![](images/responsivedesign.png)
+
 The eveRNear website is a a landing page for people who reside in some parts of London who need healthcare services. These services are delivered to their homes via a state-of-the-art mobile medical van. eveRNear mobile clinic are led by Registered Nurse (RNs) with specialist and advanced clinical training.
 
 Users of the website will be able to book an appointment, log their symptoms, choose their Specialist Nurse as well as get information on the areas of operation of the medical vans in London.
