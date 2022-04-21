@@ -449,7 +449,7 @@ hr {
  /* For small screen sizes 800px and down */
  @media screen and (max-width: 800px) {
 
-  .footer-container {
+.footer-container {
     border-top: 1px solid #e8eeef;
     display: block;
     background-color: black;
@@ -474,4 +474,18 @@ hr {
     padding-top: 10px;
 }
 
+/* for larger to medium screen size from 480px wide and down */
+@media screen and (max-width: 480px) {
+
+    .about-us, .treat, .locate {
+        width: 65%;
+        height: 1000px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: block;
+    }
+
  }
+
+
+ 
