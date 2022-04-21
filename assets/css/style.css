@@ -478,11 +478,7 @@ hr {
 @media screen and (max-width: 480px) {
 
     .about-us, .treat, .locate {
-        width: 65%;
-        height: 1000px;
-        margin: 0 auto;
-        box-sizing: border-box;
-        display: block;
+        width: 100%;
     }
 
     form {
