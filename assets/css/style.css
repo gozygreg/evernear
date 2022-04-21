@@ -78,6 +78,10 @@ h1, #hero-text h2 {
     background-size: cover;
 }
 
+#location-hero-image, #identity-hero-image {
+    position: relative;
+}
+
 #hero-text {
     height: 150px;
     width: 300px;
@@ -92,7 +96,6 @@ h1, #hero-text h2 {
     color: #fafafa;
 
     position: absolute;
-
     bottom: 0px;
     right: 900px;
     
@@ -401,16 +404,6 @@ button {
     padding: 0;
 }
 
-.left-treatment-content {
-    float: left;
-    padding-left: 20px;
-}
-
-
-.right-treatment-content p {
-    padding-left: 20px;
-}
-
 #center-image {
     object-fit: contain;
 }
@@ -439,16 +432,10 @@ hr {
      #hero-text {
          left: 25px;
      }
-
-     #treatment, #location .about-us {
-         width: 90%;
-         height: 600px;
-         margin: 0 auto;
-     }
     
  }
 
- /* For small screen sizes 800px and down */
+ /* For screen sizes of 800px and down */
  @media screen and (max-width: 800px) {
 
 .footer-container {
@@ -476,8 +463,12 @@ hr {
     padding-top: 10px;
 }
 
-/* for larger to medium screen size from 480px wide and down */
-@media screen and (max-width: 480px) {
+.about-us, .treat, .locate {
+    height: 950px;
+}
+
+/* for larger to medium screen size from 380px wide and down */
+@media screen and (max-width: 380px) {
 
     .about-us, .treat, .locate {
         width: 100%;
@@ -498,6 +489,48 @@ hr {
 
     .footer-logo {
         margin-bottom: 0;
+    }
+}
+
+/* for smaller screen size from 480px wide and down */
+@media screen and (max-width: 380px) {
+
+    .about-us, .treat, .locate {
+        width: 100%;
+        height: 700px;
+        font-size: 77%;
+    }
+
+    form {
+        width: 75%;
+        font-size: 77%;
+      }
+
+    button {
+        width: 30%;
+        font-size: 77%;
+    }
+
+    #logo, .footer-logo {
+        font-size: 150%;
+        letter-spacing: 1px;
+    }
+
+    .footer-logo {
+        margin-bottom: 0;
+    }
+
+    #menu li, footer {
+        font-size: 77%;
+    }
+
+    #hero-text {
+        font-size: 77%;
+        width: 250px;
+    }
+
+    .container {
+        padding-bottom: 0;
     }
 }
  }
