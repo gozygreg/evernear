@@ -73,6 +73,7 @@ h1, #hero-text h2 {
 #hero-image {
     height: 600px;
     width: 100%;
+    position: relative;
     background: url('../images/black\ nurse\ on\ the\ move.jpeg') no-repeat;
     background-size: cover;
 }
@@ -90,10 +91,11 @@ h1, #hero-text h2 {
     background-color: rgba(17, 17, 17, 0.5);
     color: #fafafa;
 
+    position: absolute;
+
     bottom: 0px;
     right: 900px;
     
-    position: absolute;
 
     transition: transform 0.5s ease-in;
 }
@@ -498,3 +500,4 @@ hr {
         margin-bottom: 0;
     }
 }
+ }
