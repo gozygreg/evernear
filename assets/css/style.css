@@ -368,6 +368,18 @@ button {
     padding: 10px;
 }
 
+#location-video {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background: #fafafa;
+}
+
+#video-title, #video{
+    text-align: center;
+    
+}
+
 /* media quaries */
 
 /* for larger to medium screen size from 1200px wide and down */
@@ -416,7 +428,6 @@ hr {
     display: none;
 }
 
-
 }
      
  /* for medium screen sizes from 950px wide and down */
@@ -432,11 +443,20 @@ hr {
      #hero-text {
          left: 25px;
      }
+
+     .about-us, .treat, .locate {
+         height: 650px;
+     }
+    
     
  }
 
  /* For screen sizes of 800px and down */
  @media screen and (max-width: 800px) {
+
+.about-us, .treat, .locate {
+    height: 500px;
+}
 
 .footer-container {
     border-top: 1px solid #e8eeef;
@@ -467,8 +487,8 @@ hr {
     height: 950px;
 }
 
-/* for larger to medium screen size from 380px wide and down */
-@media screen and (max-width: 380px) {
+/* for larger to medium screen size from 480px wide and down */
+@media screen and (max-width: 480px) {
 
     .about-us, .treat, .locate {
         width: 100%;
@@ -499,6 +519,11 @@ hr {
         width: 100%;
         height: 700px;
         font-size: 77%;
+    }
+
+    #video-title h2 {
+        font-size: 110%;
+        padding-bottom: 10px;
     }
 
     form {
