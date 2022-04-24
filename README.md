@@ -95,3 +95,31 @@ I tried delopying via github pages but was unsuccessful. I did some research and
 ## ACCESSIBILITY TESTING
 Lighthouse scored the site highly on Performance, Accessibility, Best Practices and SEO.
 <img width="584" alt="Screenshot 2022-04-24 at 17 03 07" src="https://user-images.githubusercontent.com/69070044/164985450-e50093c8-4bbc-4c6a-97e4-b27cd2e0c294.png">
+
+## MANUAL TESTING
+
+The website has been tested across various browsers including Google Chrome, Mozilla Firefox, Safari and Microsoft Edge.
+
+## RESPONSIVENESS AND MEDIA QUERIES
+
+Breakpoints were checked using Crome and the corresponding media quaries were used;
+*1200px wide and down for large to medium screen sizes
+*950px wide and down for large to medium screen sizes
+*800px wide and down for medium screen sizes
+*480px wide and down for medium to small screen-sizes
+*380px wide and down for smaller screen sizes
+
+The wesbsite has also been tested on the following device via Dev Tools;
+*Galaxy note 20 Linux
+*Galaxy note S10/S10 + Linux
+*ipad
+*iphone 11 pro
+*iphone 11 pro max
+*iphone 12/13 pro
+*iphone 12/13 mini
+*iphone 12/13 pro max
+*iphone SE 2nd gen
+*Kindle Fire HDX
+
+
+
