@@ -31,7 +31,7 @@ Users of the website will be able to book an appointment, log their symptoms, ch
 
 <img width="1272" alt="Treatment section" src="https://user-images.githubusercontent.com/69070044/164965247-faa2ae01-3fc5-4ed3-8793-2d334b0ca12a.png">
 
-•	There is an appointment form where patient can input their information and log their symptom. The form button has an accent color of green to draw attention to the form.
+•	There is an appointment form where patient can input their information and log their symptom. The form button has an accent color of green to draw attention to the form. The form email is validated and the name input is also validated. Therefore the form will not be submited unless the user inputs atleast his or her email and fullnames.
 
 <img width="1264" alt="Form section" src="https://user-images.githubusercontent.com/69070044/164964910-c4363526-ebdb-4528-9eff-7c31bcf0fa72.png">
 
