@@ -75,7 +75,7 @@ A video section is located on the about us page showing two medical staff walkin
 - GitHub
 
 
-## THER RESOURCES USED
+## OTHER RESOURCES USED
 - Chrome Dev Tools
 - Font Awesome
 - Google Fonts
@@ -83,7 +83,11 @@ A video section is located on the about us page showing two medical staff walkin
 - Vimeo
 
 
-## HTML AND CSS VALIDATION TESTING##                                        
+## HTML AND CSS VALIDATION TESTING                                       
 All errors detected by w3c CSS validator service and W3C markup validator service were fixed. Afterwards, there were no errors detected.
 - HTML: No errors detected
 - CSS: No error detected.
+
+## DEPLOYMENT
+My website was deployed via https://www.netlify.com/ and the link to my deployed website is https://mellifluous-salmiakki-29ae61.netlify.app/
+I tried delopying via github pages but was unsuccessful. I did some research and was able to deploy via netlify.
