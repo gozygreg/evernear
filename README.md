@@ -91,3 +91,7 @@ All errors detected by w3c CSS validator service and W3C markup validator servic
 ## DEPLOYMENT
 My website was deployed via https://www.netlify.com/ and the link to my deployed website is https://mellifluous-salmiakki-29ae61.netlify.app/
 I tried delopying via github pages but was unsuccessful. I did some research and was able to deploy via netlify.
+
+## ACCESSIBILITY TESTING
+Lighthouse scored the site highly on Performance, Accessibility, Best Practices and SEO.
+<img width="584" alt="Screenshot 2022-04-24 at 17 03 07" src="https://user-images.githubusercontent.com/69070044/164985450-e50093c8-4bbc-4c6a-97e4-b27cd2e0c294.png">
