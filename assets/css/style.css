@@ -143,12 +143,12 @@ h1, #hero-text h2 {
 /* Appointment booking */
 
 #appointment-booking-outer {
-    background-color: #fafafa;   
+    background-color: #fafafa;
 }
 
 form {
     max-width: 500px;
-    margin: 10px auto;
+    margin: auto;
     padding: 10px 20px;
     background: #f4f7f8;
     border-radius: 8px;
@@ -369,7 +369,7 @@ button {
 }
 
 #location-video {
-    height: 500px;
+    height: inherit;
     width: 100%;
     overflow: hidden;
     background: #fafafa;
