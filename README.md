@@ -103,23 +103,44 @@ The website has been tested across various browsers including Google Chrome, Moz
 ## RESPONSIVENESS AND MEDIA QUERIES
 
 Breakpoints were checked using Crome and the corresponding media quaries were used;
-*1200px wide and down for large to medium screen sizes
-*950px wide and down for large to medium screen sizes
-*800px wide and down for medium screen sizes
-*480px wide and down for medium to small screen-sizes
-*380px wide and down for smaller screen sizes
+* 1200px wide and down for large to medium screen sizes *
+* 950px wide and down for large to medium screen sizes *
+* 800px wide and down for medium screen sizes *
+* 480px wide and down for medium to small screen-sizes *
+* 380px wide and down for smaller screen sizes *
 
 The wesbsite has also been tested on the following device via Dev Tools;
-*Galaxy note 20 Linux
-*Galaxy note S10/S10 + Linux
-*ipad
-*iphone 11 pro
-*iphone 11 pro max
-*iphone 12/13 pro
-*iphone 12/13 mini
-*iphone 12/13 pro max
-*iphone SE 2nd gen
-*Kindle Fire HDX
+* Galaxy note 20 Linux *
+* Galaxy note S10/S10 + Linux *
+* ipad *
+* iphone 11 pro *
+* iphone 11 pro max *
+* iphone 12/13 pro *
+* iphone 12/13 mini *
+* iphone 12/13 pro max *
+* iphone SE 2nd gen *
+* Kindle Fire HDX *
 
+## CREDIT
+
+### CONTENT
+The following two websites were used for research
+- doctorcareanywhere.com
+- moshified.com
+
+### MEDIA
+- Footer social media icons and footer logo by Font Awesome
+- Treatment page icons also from Font Awesome
+- Identity page icons also from Font Awesome
+- Treatment Hero Image (Nurse on scrubs walking across the street) from pexels.com by Laura James
+- Location Hero Image (Picture of ambulances) from pexels.com by Pavel Danilyuk 
+- About Us Hero Image (Picture of sethoscope and a pen) from pexels.com by pixabay
+
+### ACKNOLEDGEMENT
+- To code institute for this learning platform
+- To Mosh Hamedani for his youtube videos
+- To Martina Terlevic for her support as my mentor and guide
+- To W3 Schools for quick tips
+- To all my collegues in slack that always find time to answer my questions.
 
 
