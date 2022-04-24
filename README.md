@@ -87,7 +87,8 @@ A video section is located on the about us page showing two medical staff walkin
 All errors detected by w3c CSS validator service and W3C markup validator service were fixed. Afterwards, there were no errors detected.
 - HTML: No errors detected
 - CSS: No error detected.
-
+<img width="1280" alt="Screenshot 2022-04-24 at 20 49 07" src="https://user-images.githubusercontent.com/69070044/164993997-718039fc-f228-4d5b-ac96-387711120898.png">
+<img width="1265" alt="Screenshot 2022-04-24 at 20 48 15" src="https://user-images.githubusercontent.com/69070044/164994016-1cb24635-aec7-488b-b827-752738112073.png">
 ## DEPLOYMENT
 My website was deployed via https://www.netlify.com/ and the link to my deployed website is https://mellifluous-salmiakki-29ae61.netlify.app/
 I tried delopying via github pages but was unsuccessful. I did some research and was able to deploy via netlify.
