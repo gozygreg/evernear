@@ -384,6 +384,34 @@ iframe {
 
 }
 
+/* confirmation page */
+ 
+.confirm-appointment {
+    background: #fafafa;
+    min-height: 100vh;
+}
+
+.appointment-container {
+    margin: auto;
+    width: min(90%, 70.5rem);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.appointment-container img {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.appointment-box {
+    width: 66%;
+    height: 100px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #33b5e5;
+    text-align: center;
+}
+
 /* media quaries */
 
 /* for larger to medium screen size from 1200px wide and down */
