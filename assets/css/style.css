@@ -319,7 +319,7 @@ button {
 /* location content picture */
 
 #center-image {
-    width: 400px;
+    width: 0 auto;
     height: 400px;
     object-fit: cover;
     overflow: hidden;
